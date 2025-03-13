@@ -9,6 +9,13 @@
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
 </head>
 <body>
+    <header>
+        <!-- https://pixabay.com/de/photos/strand-natur-berg-la-push-strand-2814709/ -->
+        <img src="images/header.jpg" alt="Strand bei La Push">
+        <!-- https://pixabay.com/de/photos/auto-spielzeugauto-bus-vw-fahrzeug-2583303/ -->
+        <a href="https://github.com/webmapping/nz"><img src="images/user.jpg" alt="Ein VW-Bus"></a>
+    </header>
+
     <h1>Lieblingsorte der Webmapper:innen</h1>
     <h2>La Push</h2>
     <p><strong>La Push</strong> ist eine kleine, gemeindefreie Siedlung mit etwa 350 Einwohnern im <em>Clallam County</em> im US-Bundesstaat Washington. Sie liegt im Nordwesten der 258 Hektar großen Quileute Indian Reservation und wird von den Mitgliedern des Stamms der Quileute bewohnt.</p>
@@ -23,5 +30,22 @@
     <h3>Übersichtskarte</h3>
     <div id="map" style="width:900px;height:600px;border:1px solid silver"></div>
 
+    <footer>
+        <nav>
+            <a href="https://sam-uze.github.io/top/">vorhergehende Etappe</a>
+            <a href="https://webmapping.github.io/top/">diese Etappe</a>
+            <a href="https://cs4151.github.io/top/">nächste Etappe</a>
+        </nav>
+    </footer>
+
+    <script>
+        var map = L.map('map').setView([47.908683,  -124.636604], 11);
+        L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            maxZoom: 19,
+            attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+        }).addTo(map);
+        var marker = L.marker([47.908683,  -124.636604]).addTo(map);
+        marker.bindPopup("<b>Hello world!</b><br>I am a popup.").openPopup();
+    </script>
 </body>
 </html>
