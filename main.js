@@ -38,10 +38,10 @@ const STOPS = [
     },
     {
         nr: 5,
-        title: "Rotorua",
+        title: "Puerto Escondido",
         user: "lukas6020",
-        lat: -38.14,
-        lng: 176.25,
+        lat: 15.87,
+        lng: -97.07,
         zoom: 13,
     },
     {
@@ -102,11 +102,11 @@ const STOPS = [
     },
     {
         nr: 13,
-        title: "Pancake rocks (Punakaiki)",
+        title: "Buenos Aires",
         user: "johaschra",
-        lat: -42.114383,
-        lng: 171.327320,
-        zoom: 11,
+        lat: -34.603486,
+        lng: -58.381639,
+        zoom: 13,
     },
     {
         nr: 16,
