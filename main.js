@@ -68,22 +68,21 @@ const STOPS = [
         lng: -124.636604,
         zoom: 13,
     },
-{
-
-    nr: 9,
-    title: "Konstanz",
-    user: "cs4151",
-    lat: 47.6633,
-    lng: 9.175,
-    zoom: 14,
-},
     {
-       title: "Azoren",
-  user: "pauly0602",
-  nr: 10,
-  lat: 37.77,
-  lng: -25.46,
-  zoom: 11,
+        nr: 9,
+        title: "Konstanz",
+        user: "cs4151",
+        lat: 47.6633,
+        lng: 9.175,
+        zoom: 14,
+    },
+    {
+        title: "Azoren",
+        user: "pauly0602",
+        nr: 10,
+        lat: 37.77,
+        lng: -25.46,
+        zoom: 11,
     },
     {
         nr: 11,
@@ -125,52 +124,45 @@ const STOPS = [
         lng: 5.383333,
         zoom: 13,
     },
-
-    {nr: 18,
-    title: "Volksparkstadion",
-    user: "Pruje839",
-    lat: 53.587153,
-    lng: 9.898643,
-    zoom: 12,
+    {
+        nr: 18,
+        title: "Volksparkstadion",
+        user: "Pruje839",
+        lat: 53.587153,
+        lng: 9.898643,
+        zoom: 12,
     },
     {
         nr: 20,
-        title: "Lieblingsort der Webmapperin: Singapur",
+        title: "Singapur",
         user: "florentinebusch",
         lat: 1.283333,
         lng: 103.833333,
         zoom: 11,
     },
     {
-
-    nr: 21,
-
-    title: "Tafraoute",
-
-    user: "moplatt",
-
-    lat: 29.72222,
-
-    lng: -8.97194,
-
-    zoom: 11,
-
+        nr: 21,
+        title: "Tafraoute",
+        user: "moplatt",
+        lat: 29.72222,
+        lng: -8.97194,
+        zoom: 11,
     },
-{
-    nr: 23,
-    title: "Habicht",
-    user: "fritzcrone",
-    lat: 47.043611,
-    lng: 11.289444,
-    zoom: 15
-},
+    {
+        nr: 23,
+        title: "Habicht",
+        user: "fritzcrone",
+        lat: 47.043611,
+        lng: 11.289444,
+        zoom: 15
+    },
     {
         nr: 24,
-    title: "Sevilla",
-    user: "StephanPumpernik",
-    lat: 37.3925,
-    lng: -5.9925,
-    zoom: 13,
+        title: "Sevilla",
+        user: "StephanPumpernik",
+        lat: 37.3925,
+        lng: -5.9925,
+        zoom: 13,
     },
     {
         lat: 49.577037,
@@ -189,13 +181,13 @@ const STOPS = [
         lng: 8.08,
     },
     {
-        
-nr: 29,
-    title: 'Utrecht',
-    user: 'jessimeteo',
-    lat: 52.088889,
-    lng: 5.115556,
-    zoom: 13
+
+        nr: 29,
+        title: 'Utrecht',
+        user: 'jessimeteo',
+        lat: 52.088889,
+        lng: 5.115556,
+        zoom: 13
     },
 ];
 
