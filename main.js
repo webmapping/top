@@ -2,15 +2,6 @@
 Skript für die Neuseelandreise
 */
 
-let stop = {
-    nr: 8,
-    title: "Tongariro Nationalpark",
-    user: "webmapping",
-    lat: -39.2,
-    lng: 175.583333,
-    zoom: 11,
-};
-
 const STOPS = [
     {
         lat: -34.423889,
