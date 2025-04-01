@@ -1,5 +1,5 @@
 /*
-Skript für die Neuseelandreise
+Skript für die Lieblingsorte
 */
 
 // Stops der Lieblingsorte
